@@ -70,7 +70,7 @@ We have covered some implications of use cases in the sections above:
 
 1. Some use cases require lower _levels of noise_, others can live with higher levels of noise.
 2. Mappings are rarely 100% exact when mapping across semantic spaces (different database, ontologies, terminologies). What matters is not "correctness" - what matters is that the mappings are "_fit for purpose_" (i.e. useful for your use case).
-3. Some mappings may be of _more value_ for your use case than others (for example, `exact` mappings may be more valuable than `broad` mappings). You can find the right level of cost benefit by selecting optimising value and cost of generating/maintaining such mappings. `close` mappings may often have a very low value, but if your acceptable level of noise is high, just generate them, since they don't cost you anything!
+3. Some mappings may be of _more value_ for your use case than others (for example, `exact` mappings may be more valuable than `broad` mappings). You can find the right level of cost benefit by optimising value and cost of generating/maintaining such mappings. `close` mappings may often have a very low value, but if your acceptable level of noise is high, just generate them, since they don't cost you anything!
 
 Other key considerations in the sections are:
 
