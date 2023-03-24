@@ -97,7 +97,7 @@ Other semantic frameworks exist such as rule-based systems (e.g. Datalog, SWRL),
 
 To pick the correct mapping predicate, it is important to understand whether you are mapping concepts or instances:
 
-- Concept-level: the entity being mapped constitutes a class or a concept. A concept can be thought of a collection or set of individuals. For example, "Apple" could refer to the class of all apples.
+- Concept-level: the entity being mapped constitutes a class or a concept. A concept can be thought of as a collection or set of individuals. For example, "Apple" could refer to the class of all apples.
 - Instance-level: the entity being mapped constitutes an individual or an instance. An instance is a single real-world entity, such as Barack Obama. Instances are members of classes/concepts. For example, Barack Obama belongs to the class of "Person", or "Former Presidents". Another example is an individual apple on a shelf in a supermarket ("Gala Apple 199999"), which is an instance of the "Apple" class.
 
 Note that notions like `broad` or `narrow` make no sense when mapping instances. We typically try to avoid the SKOS vocabulary for mapping instances, and make use of `owl:sameAs` instead. Note that `owl:sameAs` does have implications for reasoning, but it is also the preferred property when within the "RDF/SPARQL" semantic framework.
